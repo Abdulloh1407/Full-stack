@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Foydalanuvchi profili - Bu yerda IT kurslari va tajriba haqida ma’lumot olishingiz mumkin.">
+    <meta name="keywords" content="foydalanuvchi profili, IT kurslar, o‘qituvchi sahifasi, shaxsiy sahifa">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Foydalanuvchi ismi">
+    <title>My_profile</title>
+    
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Foydalanuvchi Profili | IT Kurslar va Tajriba">
+    <meta property="og:description"
+        content="Foydalanuvchi profili - Bu yerda IT kurslari va tajriba haqida ma’lumot olishingiz mumkin.">
+    <meta property="og:url" content="https://yourwebsite.com/my-profile.html">
+    <meta property="og:image" content="https://yourwebsite.com/images/profile-thumbnail.jpg">
+    <meta property="og:image:alt" content="Foydalanuvchi profili">
+    <meta property="og:site_name" content="IT Kurslar Platformasi">
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Foydalanuvchi Profili | IT Kurslar va Tajriba">
+    <meta name="twitter:description"
+        content="Foydalanuvchi profili - Bu yerda IT kurslari va tajriba haqida ma’lumot olishingiz mumkin.">
+    <meta name="twitter:image" content="https://yourwebsite.com/images/profile-thumbnail.jpg">
+    <meta name="twitter:image:alt" content="Foydalanuvchi profili">
+    <meta name="twitter:site" content="@your_twitter_handle">
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div id="root">
+        <header>
+            <a href="#"><img src="../asesst/img/image copy.png" alt=""></a>
+            <div class="find">
+                <p>O'quv kurslari</p>
+                <label for="
+                   find_input">
+                    <i data-lucide="search"></i>
+                    <input type="text" id="find_input" placeholder="Kurslarni kurush">
+                </label>
+                <p>Biz bilan urganing</p>
+            </div>
+
+            <div class="profile">
+                <div>
+                    <i data-lucide="heart"></i>
+                    <i data-lucide="shopping-cart"></i>
+                    <i data-lucide="bell"></i>
+                    <span>
+                        <a href="#">O</a>
+                    </span>
+                </div>
+            </div>
+            <div class="nav">
+                <label for="check" class="check-btn">
+                    <i data-lucide="menu"></i>
+                </label>
+
+                <div class="modal">
+                    <div class="modal_header">
+                        <p></p>
+                        <i data-lucide="x" id="x"></i>
+                    </div>
+                    <div class="user_data">
+                        <img src="./asesst/img/channels4_profile (2).jpg" alt="">
+                        <h1>Otabek Umarov</h1>
+                        <button>
+                            <i data-lucide="share-2"></i>
+                            <h6>Linik ni nusxalash</h6>
+                        </button>
+                    </div>
+                    <div class="categories">
+                        <button><a href="#">Shaxsiy kabinet</a></button>
+                        <button><a href="#">Mening kurslarim</a></button>
+                        <button><a href="#">O'qituvchilar</a></button>
+                        <button><a href="#">Habar yozish</a></button>
+                        <button><a href="#">Mening reytingim</a></button>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="register">
+            <aside>
+                <div class="user_data1">
+                    <img src="./asesst/img/channels4_profile (2).jpg" alt="">
+                    <h1>Otabek Umarov</h1>
+                    <button>
+                       <a href="http://127.0.0.1:5500/user/index.html#">
+                        <i data-lucide="share-2"></i>
+                        <h6>Link ni nusxalash</h6>
+                       </a>
+                    </button>
+                </div>
+                <div class="categories">
+                    <button><a href="#">Shaxsiy kabinet</a></button>
+                    <button><a href="../My_courses/index.html">Mening kurslarim</a></button>
+                    <button><a href="../My_Teachers/index.html">O'qituvchilar</a></button>
+                    <button><a href="../Read_message/index.html">Habar yozish</a></button>
+                    <button><a href="../My_reviews/index.html">Mening reytingim</a></button>
+                </div>
+            </aside>
+            <main>
+                <div class="user_info">
+                    <div>
+                        <label for="first_name">Familiyangiz kiriting</label>
+                        <input id="first_name" type="name" placeholder="Familiyangizni kiriting...">
+                        <label for="name">Ismingizni kiriting</label>
+                        <input id="name" type="name" placeholder="Ismingizni kiriting...">
+                    </div>
+                    <label for="title">Sarlavha</label>
+                    <input type="message" placeholder="Sarlavha kiriting ..." id="title">
+                    <label for="description">Uzingizga Tavsif bering</label>
+                    <textarea name="description" id="description" placeholder="Tavsif kiriting ..." rows="5"></textarea>
+                    <label for="language">
+                        Tilni tanglang
+                        <select name="" id="language">
+                            <option value="">Uzbek</option>
+                            <option value="">Rus</option>
+                            <option value="">Eng</option>
+                        </select>
+                    </label>
+                </div>
+
+                <div class="image_content">
+                    <h2>Rasm yuklang</h2>
+
+                    <figure>
+                        <img class="img_content" src="./asesst/img/channels4_profile (2).jpg" alt="">
+                    </figure>
+
+                    <label for="label">rasm tanglang</label>
+                    <div class="upload">
+                        <input type="text" id="label" placeholder="Image label">
+                        <label for="img">
+                            <input id="img" type="file" class="img_file" hidden>
+                            <span>Bu yerni bosing</span>
+                        </label>
+
+                    </div>
+
+                    <button>Yuklash</button>
+                </div>
+                <div class="lesson_links">
+                    <h2>Links</h2>
+                    <label for="website">website</label>
+                    <input type="text" id="website" placeholder="websites">
+                    <label for="twiter">Twiter</label>
+                    <input type="text" id="twiter" placeholder="twiter">
+                    <label for="Linkedin">Linkedin</label>
+                    <input type="text" id="Linkedin" placeholder="Linkedin">
+                    <label for="youtube">Youtube</label>
+                    <input type="text" id="Youtube" placeholder="youtube">
+                    <label for="facebook">Facebook</label>
+                    <input type="text" id="facebook" placeholder="facebook">
+                    </div>
+            </main>
+        </section>
+        <footer id="footer">
+            <div class="logo_imgs">
+                <a href="#"><img src="../asesst/img/image.png" alt=""></a>
+                <p>O'quvchilarni qulay va qiziqarli onlayn ta'lim orqali kuchaytirish.
+                    Onlayn metor darsliklar - bu yuqori sifatli, moslashuvchan va arzon ta'lim tajribasini taqdim etishga
+                    bag'ishlangan etakchi
+                    onlayn ta'lim platformasi.</p>
+            </div>
+            <div class="links">
+                <div>
+                    <h2>Yordam uchun </h2>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Biz bilan bog'lanish</a></li>
+                        <li><a href="#">Ko'rsatma</a></li>
+                </div>
+                <div>
+                    <h2>Bizning Dasturlarimiz</h2>
+                    <ul>
+                        <li>
+                            <a href="#">San'at va dizayn</a>
+                        </li>
+                        <li>
+                            <a href="#">Bisnessni urgatish</a>
+                        </li>
+                        <li>
+                            <a href="#">IT & Software</a>
+                        </li>
+                        <li>
+                            <a href="#">Dasturlash tillar</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h2>Biz bilan bog'lanish</h2>
+                    <p>Tel: +(123) 456-7890</p>
+                    <p>Mail: onlinee_mentor@webkul.in</p>
+                    <img src="../asesst/svg/image 3.svg" alt="">
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+<script src="https://unpkg.com/lucide@latest"></script>
+<script async>
+    lucide.createIcons();
+   </script>
+<script src="./app.js"></script>
+
+</html>
