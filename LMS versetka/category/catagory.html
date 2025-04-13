@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Online ta'lim platformasi. 1000+ kurslar bilan bilim va ko'nikmalaringizni oshiring!">
+    <meta name="keywords" content="kategoriyalar, mahsulotlar, xizmatlar, xarid, eng yaxshi takliflar">
+    <title>Document</title>
+    <link rel="stylesheet" href="./catagary.css">
+</head>
+
+<body>
+    <div class="parent">
+        <nav class="nav">
+            <div class="card">
+                <img src="../assites/img/onlayn mentor.jpg" alt="">
+                <p style="margin-left: 10px;">Categories</p>
+            </div>
+            <div class="card1">
+                <input type="text" id="search" placeholder="Search..." />
+            </div>
+            <div class="card2">
+                <p>Teach on Onlayn</p>
+            </div>
+            <div class="card3">
+                <img src="../assites/icons/Icon.png" alt="">
+                <img src="../assites/icons/korzinak.png" alt="">
+                <img src="../assites/icons/bell-01.png" alt="">
+                <img class="i" src="../assites/icons/Ellipse 4.png" alt="">
+            </div>
+        </nav>
+        <h1>All Development Courses</h1>
+        <div class="filter-sort-container">
+            <button class="filter-button">
+                <i class="fas fa-sliders-h"></i> Filter
+            </button>
+            <div class="sort-container">
+                <span>Sort By</span>
+                <div class="dropdown">
+                    <button class="dropdown-button">Relevance <i class="fas fa-chevron-down"></i></button>
+                </div>
+            </div>
+        </div>
+        <div class="content-container">
+            <div class="sidebar">
+                <div class="filter-section">
+                    <div class="filter-header">
+                        <h3>Rating</h3>
+                        <i class="fas fa-chevron-up"></i>
+                    </div>
+                    <div class="filter-options">
+                        <div class="rating-option">
+                            <input type="checkbox" id="rating-5">
+                            <label for="rating-5">
+                                <div class="stars">
+                                    <i class="fas fa-star"><img src="../assites/icons/Star2.svg" alt=""></i>
+                                    <i class="fas fa-star"><img src="../assites/icons/Star2.svg" alt=""></i>
+                                    <i class="fas fa-star"><img src="../assites/icons/Star2.svg" alt=""></i>
+                                    <i class="fas fa-star"><img src="../assites/icons/Star2.svg" alt=""></i>
+                                    <i class="fas fa-star"><img src="../assites/icons/Star2.svg" alt=""></i>
+                                </div>
+                            </label>
+                        </div>
+                        <div class="rating-option">
+                            <input type="checkbox" id="rating-4">
+                            <label for="rating-4">
+                                <div class="stars">
+                                    <i class="fas fa-star"><img src="../assites/icons/Star2.svg" alt=""></i>
+                                    <i class="fas fa-star"><img src="../assites/icons/Star2.svg" alt=""></i>
+                                    <i class="fas fa-star"><img src="../assites/icons/Star2.svg" alt=""></i>
+                                    <i class="fas fa-star"><img src="../assites/icons/Star2.svg" alt=""></i>
+                                    <i class="far fa-star"><img src="../assites/icons/Star 3.png" alt=""></i>
+                                </div>
+                            </label>
+                        </div>
+                        <div class="rating-option">
+                            <input type="checkbox" id="rating-3">
+                            <label for="rating-3">
+                                <div class="stars">
+                                    <i class="fas fa-star"><img src="../assites/icons/Star2.svg" alt=""></i>
+                                    <i class="fas fa-star"><img src="../assites/icons/Star2.svg" alt=""></i>
+                                    <i class="fas fa-star"><img src="../assites/icons/Star2.svg" alt=""></i>
+                                    <i class="far fa-star"><img src="../assites/icons/Star 3.png" alt=""></i>
+                                    <i class="far fa-star"><img src="../assites/icons/Star 3.png" alt=""></i>
+                                </div>
+                            </label>
+                        </div>
+                        <div class="rating-option">
+                            <input type="checkbox" id="rating-2">
+                            <label for="rating-2">
+                                <div class="stars">
+                                    <i class="fas fa-star"><img src="../assites/icons/Star2.svg" alt=""></i>
+                                    <i class="fas fa-star"><img src="../assites/icons/Star2.svg" alt=""></i>
+                                    <i class="far fa-star"><img src="../assites/icons/Star 3.png" alt=""></i>
+                                    <i class="far fa-star"><img src="../assites/icons/Star 3.png" alt=""></i>
+                                    <i class="far fa-star"><img src="../assites/icons/Star 3.png" alt=""></i>
+                                </div>
+                            </label>
+                        </div>
+                        <div class="rating-option">
+                            <input type="checkbox" id="rating-1">
+                            <label for="rating-1">
+                                <div class="stars">
+                                    <i class="fas fa-star"><img src="../assites/icons/Star2.svg" alt=""></i>
+                                    <i class="far fa-star"><img src="../assites/icons/Star 3.png" alt=""></i>
+                                    <i class="far fa-star"><img src="../assites/icons/Star 3.png" alt=""></i>
+                                    <i class="far fa-star"><img src="../assites/icons/Star 3.png" alt=""></i>
+                                    <i class="far fa-star"><img src="../assites/icons/Star 3.png" alt=""></i>
+                                </div>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="filter-section">
+                    <div class="filter-header">
+                        <h3>Number of Chapters</h3>
+                        <i class="fas fa-chevron-up"></i>
+                    </div>
+                    <div class="filter-options">
+                        <div class="checkbox-option">
+                            <input type="checkbox" id="chapters-1-10">
+                            <label for="chapters-1-10">1-10</label>
+                        </div>
+                        <div class="checkbox-option">
+                            <input type="checkbox" id="chapters-10-15">
+                            <label for="chapters-10-15">10-15</label>
+                        </div>
+                        <div class="checkbox-option">
+                            <input type="checkbox" id="chapters-15-20" checked>
+                            <label for="chapters-15-20">15-20</label>
+                        </div>
+                        <div class="checkbox-option">
+                            <input type="checkbox" id="chapters-20-25">
+                            <label for="chapters-20-25">20-25</label>
+                        </div>
+                        <a href="#" class="see-more">See More <i class="fas fa-chevron-down"></i></a>
+                    </div>
+                </div>
+
+                <div class="filter-section">
+                    <div class="filter-header">
+                        <h3>Price</h3>
+                        <i class="fas fa-chevron-up"></i>
+                    </div>
+                </div>
+
+                <div class="filter-section">
+                    <div class="filter-header">
+                        <h3>Category</h3>
+                        <i class="fas fa-chevron-up"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="courses-grid">
+                <div class="course-card">
+                    <div class="course-image">
+                        <img src="https://it-park.uz/storage/images/news/normal/tE5aoJn9fyqVCY4i1LX5lQmxZQzmwRrPqOqnToyT.jpg"
+                            alt="Person typing on laptop">
+                    </div>
+                    <div class="course-details">
+                        <h3>Beginner's Guide to Design</h3>
+                        <p class="instructor">By Ronald Richards</p>
+                        <div class="rating">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <span class="rating-count">(1200 Ratings)</span>
+                        </div>
+                        <p class="course-info">22 Total Hours. 155 Lectures. Beginner</p>
+                        <p class="price">$149.9</p>
+                    </div>
+                </div>
+                <div class="course-card">
+                    <div class="course-image">
+                        <img src="https://startupbase.uz/_next/image?url=https%3A%2F%2Fstartupbase.uz%2Fmedia%2Fnews%2F222.png&w=3840&q=75"
+                            alt="Person typing on laptop">
+                    </div>
+                    <div class="course-details">
+                        <h3>Beginner's Guide to Design</h3>
+                        <p class="instructor">By Ronald Richards</p>
+                        <div class="rating">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <span class="rating-count">(1200 Ratings)</span>
+                        </div>
+                        <p class="course-info">22 Total Hours. 155 Lectures. Beginner</p>
+                        <p class="price">$149.9</p>
+                    </div>
+                </div>
+                <div class="course-card">
+                    <div class="course-image">
+                        <img src="https://outsource.gov.uz/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fstatistic-mob.e429954b.png&w=3840&q=100"
+                            alt="Person typing on laptop">
+                    </div>
+                    <div class="course-details">
+                        <h3>Beginner's Guide to Design</h3>
+                        <p class="instructor">By Ronald Richards</p>
+                        <div class="rating">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <span class="rating-count">(1200 Ratings)</span>
+                        </div>
+                        <p class="course-info">22 Total Hours. 155 Lectures. Beginner</p>
+                        <p class="price">$149.9</p>
+                    </div>
+                </div>
+                <div class="course-card">
+                    <div class="course-image">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIxK3sxUvGANfjkylyVNOyyKXQ-RkyPBVC7A&s"
+                            alt="Person typing on laptop">
+                    </div>
+                    <div class="course-details">
+                        <h3>Beginner's Guide to Design</h3>
+                        <p class="instructor">By Ronald Richards</p>
+                        <div class="rating">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <span class="rating-count">(1200 Ratings)</span>
+                        </div>
+                        <p class="course-info">22 Total Hours. 155 Lectures. Beginner</p>
+                        <p class="price">$149.9</p>
+                    </div>
+                </div>
+                <div class="course-card">
+                    <div class="course-image">
+                        <img src="https://daryo.uz/static/2024/03/65f1d65d3cdc7.jpg" alt="Person typing on laptop">
+                    </div>
+                    <div class="course-details">
+                        <h3>Beginner's Guide to Design</h3>
+                        <p class="instructor">By Ronald Richards</p>
+                        <div class="rating">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <span class="rating-count">(1200 Ratings)</span>
+                        </div>
+                        <p class="course-info">22 Total Hours. 155 Lectures. Beginner</p>
+                        <p class="price">$149.9</p>
+                    </div>
+                </div>
+                <div class="course-card">
+                    <div class="course-image">
+                        <img src="https://eurasianet.org/sites/default/files/styles/article/public/2022-12/WhatsApp%20Image%202022-12-28%20at%2007.36.29.jpeg?h=98d62943&itok=GP-1h5DE"
+                            alt="Person typing on laptop">
+                    </div>
+                    <div class="course-details">
+                        <h3>Beginner's Guide to Design</h3>
+                        <p class="instructor">By Ronald Richards</p>
+                        <div class="rating">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <span class="rating-count">(1200 Ratings)</span>
+                        </div>
+                        <p class="course-info">22 Total Hours. 155 Lectures. Beginner</p>
+                        <p class="price">$149.9</p>
+                    </div>
+                </div>
+                <div class="course-card">
+                    <div class="course-image">
+                        <img src="https://startupbase.uz/_next/image?url=https%3A%2F%2Fstartupbase.uz%2Fmedia%2Fnews%2F1_khly2Lk.png&w=3840&q=75"
+                            alt="Person typing on laptop">
+                    </div>
+                    <div class="course-details">
+                        <h3>Beginner's Guide to Design</h3>
+                        <p class="instructor">By Ronald Richards</p>
+                        <div class="rating">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <span class="rating-count">(1200 Ratings)</span>
+                        </div>
+                        <p class="course-info">22 Total Hours. 155 Lectures. Beginner</p>
+                        <p class="price">$149.9</p>
+                    </div>
+                </div>
+                <div class="course-card">
+                    <div class="course-image">
+                        <img src="https://it-park.uz/storage/images/news/normal/DR5xJtxthH9oa4m5rbNhbUWjcinHnq22M4WCRu6x.jpg"
+                            alt="Person typing on laptop">
+                    </div>
+                    <div class="course-details">
+                        <h3>Beginner's Guide to Design</h3>
+                        <p class="instructor">By Ronald Richards</p>
+                        <div class="rating">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <span class="rating-count">(1200 Ratings)</span>
+                        </div>
+                        <p class="course-info">22 Total Hours. 155 Lectures. Beginner</p>
+                        <p class="price">$149.9</p>
+                    </div>
+                </div>
+                <div class="course-card">
+                    <div class="course-image">
+                        <img src="../assites/img/Rectangle 1080.png" alt="Person typing on laptop">
+                    </div>
+                    <div class="course-details">
+                        <h3>Beginner's Guide to Design</h3>
+                        <p class="instructor">By Ronald Richards</p>
+                        <div class="rating">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <span class="rating-count">(1200 Ratings)</span>
+                        </div>
+                        <p class="course-info">22 Total Hours. 155 Lectures. Beginner</p>
+                        <p class="price">$149.9</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="pagination">
+            <button class="pagination-button prev"><i data-lucide="arrow-left"></i></button>
+            <button class="pagination-button active">1</button>
+            <button class="pagination-button">2</button>
+            <button class="pagination-button">3</button>
+            <button class="pagination-button next"><i data-lucide="arrow-right"></i></button>
+        </div>
+        <section class="instructor-catagories">
+            <section class="see_all">
+                <div class="cardf">
+                    <h1>Top Catagories</h1>
+                </div>
+                <div class="cardr">
+                    <a href="../courses/course.html">See All</a>
+                </div>
+            </section>
+            <div class="cards">
+                <div class="instructor-card">
+                    <img src="https://www.mentorcliq.com/wp-content/uploads/2023/03/4T7A8900-scaled.webp" alt="Tutor">
+                    <h3>Bekzod</h3>
+                    <p style="font-size: 18px">UI/UX Designer</p>
+                    <div class="image">
+                        <div class="tutorstar">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-CjaU_DVankuju8iN_DWoNz5IO3-PyaGVYQ&s"
+                                alt="Star">
+                            <h3>4.9</h3>
+                        </div>
+                        <div class="tutorstudent">
+                            <h3>2400 Students</h3>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="instructor-card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWglgCRdd9WjuJmQUBG98MQTd2HDQcBH2QQg&s"
+                        alt="Tutor">
+                    <h3>Utkir Hoshimov</h3>
+                    <p style="font-size: 18px">Frontend</p>
+                    <div class="image">
+                        <div class="tutorstar">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-CjaU_DVankuju8iN_DWoNz5IO3-PyaGVYQ&s"
+                                alt="Star">
+                            <h3>7.9</h3>
+                        </div>
+                        <div class="tutorstudent">
+                            <h3>1800 Students</h3>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="instructor-card">
+                    <img src="https://cdn.careerfoundry.com/en/wp-content/uploads/2021/06/experienced-web-developer-doing-backend-development.webp"
+                        alt="Tutor">
+                    <h3>Ronald Richards</h3>
+                    <p style="font-size: 18px">UI/UX Designer</p>
+                    <div class="image">
+                        <div class="tutorstar">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-CjaU_DVankuju8iN_DWoNz5IO3-PyaGVYQ&s"
+                                alt="Star">
+                            <h3>4.9</h3>
+                        </div>
+                        <div class="tutorstudent">
+                            <h3>2400 Students</h3>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="instructor-card">
+                    <img src="https://it-park.uz/storage/images/newsimage/DSC00525_1733805407.JPG   " alt="Tutor">
+                    <h3>Ronald Richards</h3>
+                    <p style="font-size: 18px">UI/UX Designer</p>
+                    <div class="image">
+                        <div class="tutorstar">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-CjaU_DVankuju8iN_DWoNz5IO3-PyaGVYQ&s"
+                                alt="Star">
+                            <h3>4.9</h3>
+                        </div>
+                        <div class="tutorstudent">
+                            <h3>2400 Students</h3>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="instructor-card">
+                    <img src="https://homeguruworld.com/wp-content/uploads/2021/05/Banner-1-e1632383732604.jpg"
+                        alt="Tutor">
+                    <h3>Ronald Richards</h3>
+                    <p style="font-size: 18px">UI/UX Designer</p>
+                    <div class="image">
+                        <div class="tutorstar">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-CjaU_DVankuju8iN_DWoNz5IO3-PyaGVYQ&s"
+                                alt="Star">
+                            <h3>4.9</h3>
+                        </div>
+                        <div class="tutorstudent">
+                            <h3>2400 Students</h3>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section class="cources-catagories">
+            <section class="see_all">
+                <div class="cardf">
+                    <h1>Top Catagories</h1>
+                </div>
+                <div class="cardr">
+                    <a href="../courses/course.html">See All</a>
+                </div>
+            </section>
+            <div class="cards">
+                <div class="cources-card">
+                    <img src="https://media.licdn.com/dms/image/v2/D5612AQFfhTEictqBHA/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1721174916441?e=2147483647&v=beta&t=IqnGNJxS4J-yaL4rgLBlx-cbNAbFwpEMCRvkkLXsR48"
+                        alt="">
+                    <h3>Frontend Buyicha Mutahhasis</h3>
+                    <p>Hoshimjon</p>
+                    <div class="image">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-CjaU_DVankuju8iN_DWoNz5IO3-PyaGVYQ&s"
+                            alt="Star">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-CjaU_DVankuju8iN_DWoNz5IO3-PyaGVYQ&s"
+                            alt="Star">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-CjaU_DVankuju8iN_DWoNz5IO3-PyaGVYQ&s"
+                            alt="Star">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-CjaU_DVankuju8iN_DWoNz5IO3-PyaGVYQ&s"
+                            alt="Star">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-CjaU_DVankuju8iN_DWoNz5IO3-PyaGVYQ&s"
+                            alt="Star">
+                        <h6> (1200 Ratings)</h6>
+                    </div>
+                    <p>22 Total Hours. 155 Lectures. Beginner</p>
+                    <h1>$99.9</h1>
+
+                </div>
+                <div class="cources-card">
+                    <img src="https://ddi-dev.com/uploads/backend-is.png" alt="">
+                    <h3>Bakcend buyicha mutahassis</h3>
+                    <p>Abduvali</p>
+                    <div class="image">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-CjaU_DVankuju8iN_DWoNz5IO3-PyaGVYQ&s"
+                            alt="Star">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-CjaU_DVankuju8iN_DWoNz5IO3-PyaGVYQ&s"
+                            alt="Star">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-CjaU_DVankuju8iN_DWoNz5IO3-PyaGVYQ&s"
+                            alt="Star">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-CjaU_DVankuju8iN_DWoNz5IO3-PyaGVYQ&s"
+                            alt="Star">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-CjaU_DVankuju8iN_DWoNz5IO3-PyaGVYQ&s"
+                            alt="Star">
+                        <h6> (1500 Ratings)</h6>
+                    </div>
+                    <p>24 Total Hours. 155 Lectures. Beginner</p>
+                    <h1>$99.9</h1>
+
+                </div>
+                <div class="cources-card">
+                    <img src="https://miro.medium.com/v2/resize:fit:1400/0*cl7fc6pt1MHjIF4K.png" alt="">
+                    <h3>Full Stack buycha MUtahassis</h3>
+                    <p>Sherali</p>
+                    <div class="image">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-CjaU_DVankuju8iN_DWoNz5IO3-PyaGVYQ&s"
+                            alt="Star">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-CjaU_DVankuju8iN_DWoNz5IO3-PyaGVYQ&s"
+                            alt="Star">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-CjaU_DVankuju8iN_DWoNz5IO3-PyaGVYQ&s"
+                            alt="Star">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-CjaU_DVankuju8iN_DWoNz5IO3-PyaGVYQ&s"
+                            alt="Star">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-CjaU_DVankuju8iN_DWoNz5IO3-PyaGVYQ&s"
+                            alt="Star">
+                        <h6> (1700 Ratings)</h6>
+                    </div>
+                    <p>18 Total Hours. 155 Lectures. Beginner</p>
+                    <h1>$199.9</h1>
+
+                </div>
+                <div class="cources-card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1rc_iozy9Rgc-_TZH7SVb3EcTlpj_tMXzWw&s"
+                        alt="">
+                    <h3>BPM</h3>
+                    <p>By Ronald Richards</p>
+                    <div class="image">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-CjaU_DVankuju8iN_DWoNz5IO3-PyaGVYQ&s"
+                            alt="Star">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-CjaU_DVankuju8iN_DWoNz5IO3-PyaGVYQ&s"
+                            alt="Star">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-CjaU_DVankuju8iN_DWoNz5IO3-PyaGVYQ&s"
+                            alt="Star">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-CjaU_DVankuju8iN_DWoNz5IO3-PyaGVYQ&s"
+                            alt="Star">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-CjaU_DVankuju8iN_DWoNz5IO3-PyaGVYQ&s"
+                            alt="Star">
+                        <h6> (1200 Ratings)</h6>
+                    </div>
+                    <p>22 Total Hours. 155 Lectures. Beginner</p>
+                    <h1>$149.9</h1>
+
+                </div>
+            </div>
+        </section>
+        <footer id="footer">
+            <div class="logo_imgs">
+                <a href="#"><img src="../../asesst/img/image.png" alt=""></a>
+                <p>O'quvchilarni qulay va qiziqarli onlayn ta'lim orqali kuchaytirish.
+                    Onlayn metor darsliklar - bu yuqori sifatli, moslashuvchan va arzon ta'lim tajribasini taqdim
+                    etishga
+                    bag'ishlangan etakchi
+                    onlayn ta'lim platformasi.</p>
+            </div>
+            <div class="links">
+                <div>
+                    <h2>Yordam uchun </h2>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Biz bilan bog'lanish</a></li>
+                        <li><a href="#">Ko'rsatma</a></li>
+                </div>
+                <div>
+                    <h2>Bizning Dasturlarimiz</h2>
+                    <ul>
+                        <li>
+                            <a href="#">San'at va dizayn</a>
+                        </li>
+                        <li>
+                            <a href="#">Bisnessni urgatish</a>
+                        </li>
+                        <li>
+                            <a href="#">IT & Software</a>
+                        </li>
+                        <li>
+                            <a href="#">Dasturlash tillar</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h2>Biz bilan bog'lanish</h2>
+                    <p>Tel: +(123) 456-7890</p>
+                    <p>Mail: onlinee_mentor@webkul.in</p>
+                    <img src="../../asesst/svg/image 3.svg" alt="">
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+<script src="https://unpkg.com/lucide@latest"></script>
+<script>
+    lucide.createIcons();
+</script>
+
+</html>

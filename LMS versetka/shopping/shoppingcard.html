@@ -6,54 +6,110 @@
     <meta name="description" content="Onlayn ta'lim platformasi. 1000+ kurslar bilan bilim va ko'nikmalaringizni oshiring!">
     <meta name="keywords" content="Onlayn o'rganish, Byway, IT kurslari, biznes kurslari, dizayn, dasturlash">
     <title>Hujjat</title>
-    <link rel="stylesheet" href="shoppingcard.css">
+    <link rel="stylesheet" href="./shoppingcard.css">
 </head>
 <body>
     <div class="parent">
-        <nav class="nav">
-        <div class="card">
-            <img src="./assites/img/onlayn mentor.jpg" alt="">
-            <p style="margin-left: 10px;">Kategoriyalar</p>
-        </div>
-        <div class="card1">
-            <input type="text" id="search" placeholder="Izlash..." />
-            <button type="submit"></button>
-        </div>
-        <div class="card2">
-            <p>Onlayn o'rgatish</p>
-        </div>
-        <div class="card3">
-            <img src="./assites/icons/Icon.png" alt="">
-            <img src="./assites/icons/korzinak.png" alt="">
-            <img src="./assites/icons/bell-01.png" alt="">
-            <img class="i" src="./assites/icons/Ellipse 4.png" alt="">
-        </div>
-    </nav>
+        <header>
+            <a href="#"><img src="../../asesst/img/image copy.png" alt=""></a>
+            <div class="find">
+                <p>O'quv kurslari</p>
+                <label for="
+                           find_input">
+                    <i data-lucide="search"></i>
+                    <input type="text" id="find_input" placeholder="Kurslarni kurush">
+                </label>
+                <p>Biz bilan urganing</p>
+            </div>
+        
+            <div class="profile">
+                <div>
+                    <i data-lucide="heart"></i>
+                    <i data-lucide="shopping-cart"></i>
+                    <i data-lucide="bell"></i>
+                    <span>
+                        <a href="#">O</a>
+                    </span>
+                </div>
+            </div>
+            <div class="nav">
+                <label for="check" class="check-btn">
+                    <i data-lucide="menu"></i>
+                </label>
+        
+                <div class="modal">
+                    <div class="modal_header">
+                        <p></p>
+                        <i data-lucide="x" id="x"></i>
+                    </div>
+                    <div class="user_data">
+                        <img src="../../asesst/img/channels4_profile (2).jpg" alt="">
+                        <h1>Otabek Umarov</h1>
+                        <button>
+                            <i data-lucide="share-2"></i>
+                            <h6>Linik ni nusxalash</h6>
+                        </button>
+                    </div>
+                    <div class="categories">
+                        <button><a href="../../Abdulloh/user/index.html">Shaxsiy kabinet</a></button>
+                        <button><a href="../../Abdulloh/My_courses/index.html">Mening kurslarim</a></button>
+                        <button><a href="../../Abdulloh/My_Teachers/index.html">O'qituvchilar</a></button>
+                        <button><a href="../../Abdulloh/Read_message/index.html">Habar yozish</a></button>
+                        <button><a href="../../Abdulloh/My_reviews/index.html">Mening reytingim</a></button>
+                    </div>
+                </div>
+            </div>
+        </header>
     <div class="cardd">
         <h1>Savatcha</h1>
-        <a href="#">Kategoriyalar > </a>
-        <a href="#">Tafsilotlar > </a>
-        <a href="#">Savatcha</a>
+        <a href="../category/catagory.html">Kategoriyalar <i data-lucide="chevron-right"></i></a>
+        <a href="../courses/course.html">Tafsilotlar <i data-lucide="chevron-right"></i> </a>
+        <a href="#" id="active_site">Savatcha</a>
     </div>
-    <div>
+    <div class="line">
         <p>1 Kurs savatchada</p>
     </div>
     <section class="section_main">
         <div class="card_left">
             <div class="card_l">
                 <div class="child_card">
-                    <img src="assites/img/image 3.png" alt="">
+                    <img src="../assites/img/image 3.png" alt="">
                 </div>
                 <div class="child_card">
                     <h3>Foydalanuvchi Tajribasi Dizayni Kirish</h3>
                     <p>Jon Do tomonidan</p>
                     <div class="stars">
                     <h5 >4.6</h5>
-                    <img class="star" src="assites/icons/Vector.png" alt="">
-                    <img class="star" src="assites/icons/Vector.png" alt="">
-                    <img class="star" src="assites/icons/Vector.png" alt="">
-                    <img class="star" src="assites/icons/Vector.png" alt="">
-                    <img class="star" src="assites/icons/Vector.png" alt="">
+                    <img class="star" src="../assites/icons/Vector.png" alt="">
+                    <img class="star" src="../assites/icons/Vector.png" alt="">
+                    <img class="star" src="../assites/icons/Vector.png" alt="">
+                    <img class="star" src="../assites/icons/Vector.png" alt="">
+                    <img class="star" src="../assites/icons/Vector.png" alt="">
+                    <p>(250 ta baho) | 22 Soat. 155 Dars. Barcha darajalar</p>
+                </div>
+                <div style="display: flex; flex-direction: row;gap: 20px;">
+                <a href="#">Keyinroq saqlash</a>
+                <a style="color: rgb(247, 50, 50);" href="#">O'chirish</a>
+            </div>
+              </div>
+                <div class="child_card">
+                    <h1>$45.00</h1>
+                </div>
+                </div>
+            <div class="card_l">
+                <div class="child_card">
+                    <img src="../assites/img/image 3.png" alt="">
+                </div>
+                <div class="child_card">
+                    <h3>Foydalanuvchi Tajribasi Dizayni Kirish</h3>
+                    <p>Jon Do tomonidan</p>
+                    <div class="stars">
+                    <h5 >4.6</h5>
+                    <img class="star" src="../assites/icons/Vector.png" alt="">
+                    <img class="star" src="../assites/icons/Vector.png" alt="">
+                    <img class="star" src="../assites/icons/Vector.png" alt="">
+                    <img class="star" src="../assites/icons/Vector.png" alt="">
+                    <img class="star" src="../assites/icons/Vector.png" alt="">
                     <p>(250 ta baho) | 22 Soat. 155 Dars. Barcha darajalar</p>
                 </div>
                 <div style="display: flex; flex-direction: row;gap: 20px;">
@@ -67,43 +123,18 @@
                 </div>
             <div class="card_l">
                 <div class="child_card">
-                    <img src="assites/img/image 3.png" alt="">
+                    <img src="../assites/img/image 3.png" alt="">
                 </div>
                 <div class="child_card">
                     <h3>Foydalanuvchi Tajribasi Dizayni Kirish</h3>
                     <p>Jon Do tomonidan</p>
                     <div class="stars">
                     <h5 >4.6</h5>
-                    <img class="star" src="assites/icons/Vector.png" alt="">
-                    <img class="star" src="assites/icons/Vector.png" alt="">
-                    <img class="star" src="assites/icons/Vector.png" alt="">
-                    <img class="star" src="assites/icons/Vector.png" alt="">
-                    <img class="star" src="assites/icons/Vector.png" alt="">
-                    <p>(250 ta baho) | 22 Soat. 155 Dars. Barcha darajalar</p>
-                </div>
-                <div style="display: flex; flex-direction: row;gap: 20px;">
-                <a href="#">Keyinroq saqlash</a>
-                <a style="color: red;" href="#">O'chirish</a>
-            </div>
-              </div>
-                <div class="child_card">
-                    <h1>$45.00</h1>
-                </div>
-                </div>
-            <div class="card_l">
-                <div class="child_card">
-                    <img src="assites/img/image 3.png" alt="">
-                </div>
-                <div class="child_card">
-                    <h3>Foydalanuvchi Tajribasi Dizayni Kirish</h3>
-                    <p>Jon Do tomonidan</p>
-                    <div class="stars">
-                    <h5 >4.6</h5>
-                    <img class="star" src="assites/icons/Vector.png" alt="">
-                    <img class="star" src="assites/icons/Vector.png" alt="">
-                    <img class="star" src="assites/icons/Vector.png" alt="">
-                    <img class="star" src="assites/icons/Vector.png" alt="">
-                    <img class="star" src="assites/icons/Vector.png" alt="">
+                    <img class="star" src="../assites/icons/Vector.png" alt="">
+                    <img class="star" src="../assites/icons/Vector.png" alt="">
+                    <img class="star" src="../assites/icons/Vector.png" alt="">
+                    <img class="star" src="../assites/icons/Vector.png" alt="">
+                    <img class="star" src="../assites/icons/Vector.png" alt="">
                     <p>(250 ta baho) | 22 Soat. 155 Dars. Barcha darajalar</p>
                 </div>
                 <div style="display: flex; flex-direction: row;gap: 20px;">
@@ -136,59 +167,75 @@
                 <h1>$280.00</h1>
             </div>
             <div>
-                <button class="ptch"><a href="checkout.html">To'lovga o'tish</a></button>
+                <button class="ptch"><a href="../checkout/checkout.html">To'lovga o'tish</a></button>
             </div>
         </div>
           
         </div>
     </section>
-    <footer class="footer">
-        <div class="footer-container">
-            <div class="footer-section about">
-                <h2 class="logo">Onlayn Mentor</h2>
+    <footer id="footer">
+        <div class="logo_imgs">
+            <a href="#"><img src="../../asesst/img/image.png" alt="logo-project"></a>
+            <p>O'quvchilarni qulay va qiziqarli onlayn ta'lim orqali kuchaytirish.
+                Onlayn metor darsliklar - bu yuqori sifatli, moslashuvchan va arzon ta'lim tajribasini taqdim etishga
+                bag'ishlangan etakchi
+                onlayn ta'lim platformasi.</p>
+        </div>
+        <div class="links">
+            <div>
+                <h2>Yordam uchun </h2>
                 <ul>
-                    <li><a href="#">O'quvchilarga qulay va qiziqarli onlayn ta'lim imkoniyatlarini taqdim etamiz.</a></li>
-                    <li><a href="#">Byway - yuqori sifatli, moslashuvchan va arzon ta'lim tajribalarini taqdim etadigan yetakchi onlayn ta'lim platformasi.</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Biz bilan bog'lanish</a></li>
+                    <li><a href="#">Ko'rsatma</a></li>
+            </div>
+            <div>
+                <h2>Bizning Dasturlarimiz</h2>
+                <ul>
+                    <li>
+                        <a href="#">San'at va dizayn</a>
+                    </li>
+                    <li>
+                        <a href="#">Bisnessni urgatish</a>
+                    </li>
+                    <li>
+                        <a href="#">IT & Software</a>
+                    </li>
+                    <li>
+                        <a href="#">Dasturlash tillar</a>
+                    </li>
                 </ul>
             </div>
-            
-            <div class="footer-section">
-                <h3>Yordam</h3>
-                <ul>
-                    <li><a href="#">Biz bilan bog'laning</a></li>
-                    <li><a href="#">So'nggi maqolalar</a></li>
-                    <li><a href="#">Tez-tez so'raladigan savollar</a></li>
-                </ul>
-            </div>
-
-            <div class="footer-section">
-                <h3>Dasturlar</h3>
-                <ul>
-                    <li><a href="#">San'at va Dizayn</a></li>
-                    <li><a href="#">Biznes</a></li>
-                    <li><a href="#">IT va Dasturiy Ta'minot</a></li>
-                    <li><a href="#">Tillar</a></li>
-                    <li><a href="#">Dasturlash</a></li>
-                </ul>
-            </div>
-
-            <div class="footer-section contact">
-                <ul>
-                <li>Biz bilan bog'laning</li>
-                <li>Manzil: 123 Asosiy Ko'cha, Har qanday Shahar, CA 12345</li>
-                <li>Tel: +(123) 456-7890</li>
-                <li>Email: bywayedu@webkul.in</li>
-            </ul>
-                <div class="social-icons">
-                    <a href="#"><img src="https://img.freepik.com/premium-psd/facebook-social-media-icon-3d_466778-4384.jpg?semt=ais_hybrid" alt="Facebook"></a>
-                    <a href="#"><img src="https://www.freepnglogos.com/uploads/google-logo-png/google-logo-png-webinar-optimizing-for-success-google-business-webinar-13.png" alt="Google"></a>
-                    <a href="#"><img src="https://png.pngtree.com/png-vector/20210222/ourmid/pngtree-glitch-distorted-letter-x-broken-pixel-effect-png-image_2936132.jpg" alt="X"></a>
-                    <a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQC_24yseqrj0wUy_oHfqnnd3j-NDbl4NY3i4EP52086DdC0-Gpl5u0VyttptKTz7nTPIc&usqp=CAU" alt="Microsoft"></a>
-                </div>
+            <div>
+                <h2>Biz bilan bog'lanish</h2>
+                <p>Tel: +998889596545</p>
+                <p>Mail: onlinee_mentor@gmail.ru</p>
+                <img src="../../asesst/svg/image 3.svg" alt="links-google">
             </div>
         </div>
     </footer>
 </div>
-    
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+        lucide.createIcons();
+    </script>
 </body>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+            let openModal = document.querySelector(".check-btn");
+            let closeModal = document.getElementById("x");
+            let modal = document.querySelector(".modal");
+
+            if (openModal && closeModal && modal) {
+                openModal.addEventListener("click", function () {
+                    modal.classList.add("active");
+                });
+
+                closeModal.addEventListener("click", function () {
+                    modal.classList.remove("active");
+                });
+            }
+        });
+</script>
 </html>
