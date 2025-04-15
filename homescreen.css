@@ -7,6 +7,7 @@
     font-family: 'Inter-Regular';
     text-decoration: none;
     list-style: none;
+    scroll-behavior: smooth;
 }
 body{
     width: 100%;

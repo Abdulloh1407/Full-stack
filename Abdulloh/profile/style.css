@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'PlayfairDisplay-VariableFont_wght';
-    src: url(../asesst/font/PlayfairDisplay-VariableFont_wght.ttf) format("truetype");
+    src: url(../../asesst/font/PlayfairDisplay-VariableFont_wght.ttf) format("truetype");
 
 }
 @font-face {
     font-family: 'Ubuntu-LightItalic';
-    src: url(../asesst/font/Ubuntu-LightItalic.ttf) format("truetype");
+    src: url(../../asesst/font/Ubuntu-LightItalic.ttf) format("truetype");
 }
 * {
     margin: 0;

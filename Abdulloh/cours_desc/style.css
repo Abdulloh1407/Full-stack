@@ -1,13 +1,13 @@
-@import "./asesst/font/Ubuntu-LightItalic.ttf";
-@import "./asesst/font/PlayfairDisplay-SemiBoldItalic.ttf";
+@import "../../asesst/font/Ubuntu-LightItalic.ttf";
+@import "../../asesst/font/PlayfairDisplay-SemiBoldItalic.ttf";
 @font-face {
     font-family: 'PlayfairDisplay-SemiBoldItalic';
-    src: url(./asesst/font/PlayfairDisplay-Regular.ttf) format("truetype");
+    src: url(../../asesst/font/PlayfairDisplay-Regular.ttf) format("truetype");
 }
 
 @font-face {
     font-family: "Ubuntu-LightItalic";
-    src: url(./asesst/font/Ubuntu-LightItalic.ttf) format("truetype");
+    src: url(../../asesst/font/Ubuntu-LightItalic.ttf) format("truetype");
 }
 :root {
     --btn-clr: #0F172A;
@@ -171,7 +171,7 @@ section.see_video {
             .video_img {
                 /* width: 840px; */
                 height: 580px;
-                background-image: url(./asesst/img/video.png);
+                background-image: url(../../asesst/img/video.png);
                 background-repeat: no-repeat;
                 display: flex;
                 align-items: center;
