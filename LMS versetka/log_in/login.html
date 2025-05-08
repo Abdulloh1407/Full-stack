@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Online ta'lim platformasi. 1000+ kurslar bilan bilim va ko'nikmalaringizni oshiring!">
-    <meta name="keywords" content=" online ta'lim, kurslar, biznes, dasturlash, dizayn, ta'lim platformasi, onlayn o‘rganish, bilim, ko'nikmalar">
+    <meta name="description"
+        content="Online ta'lim platformasi. 1000+ kurslar bilan bilim va ko'nikmalaringizni oshiring!">
+    <meta name="keywords"
+        content=" online ta'lim, kurslar, biznes, dasturlash, dizayn, ta'lim platformasi, onlayn o‘rganish, bilim, ko'nikmalar">
     <title>Document</title>
     <link rel="stylesheet" href="./login.css">
 </head>
+
 <body>
     <div class="parent">
         <nav class="nav">
@@ -33,17 +37,19 @@
                 <h1>Sign in to your account</h1>
                 <form class="right">
                     <h4>Email</h4>
-                    <input class="input_email" type="text" placeholder="Username or Email ID">
+                    <input class="input_email" name="email" type="text" placeholder="Username or Email ID">
                     <h4>Password</h4>
-                    <input class="input_email" type="text" placeholder="Enter Password">
-                    <button class="but">Sign in   </button>
-                    <p style="text-align: center;">--------------------Sign up with-------------</p>
-                <div class="social-login">
-                    <button  class="facebook"> <img src="../assites/icons/Facebook_Logo_Primary 2.png" alt="">Facebook</button>
-                    <button class="google"> <img src="../assites/icons/google.png" alt="">Google</button>
-                    <button class="microsoft"><img style="width: 25px;" src="../assites/icons/Microsoft_logo.svg.png" alt="">Microsoft</button>
-                </div>
+                    <input class="input_email" name="password" type="text" placeholder="Enter Password">
+                    <button class="but">Sign in </button>
                 </form>
+                    <p style="text-align: center;">--------------------Sign up with-------------</p>
+                    <div class="social-login">
+                        <button class="facebook"> <img src="../assites/icons/Facebook_Logo_Primary 2.png"
+                                alt="">Facebook</button>
+                        <button class="google"> <img src="../assites/icons/google.png" alt="">Google</button>
+                        <button class="microsoft"><img style="width: 25px;"
+                                src="../assites/icons/Microsoft_logo.svg.png" alt="">Microsoft</button>
+                    </div>
             </div>
             <div class="cardleft">
                 <img src="../assites/img/Frame 427319048 (1).png" alt="">
@@ -52,4 +58,18 @@
         </section>
     </div>
 </body>
+<script>
+  const form=document.querySelector('form')
+    form.addEventListener('submit', (e) => {
+        e.preventDefault();
+        const data= Object.fromEntries(new FormData(e.target))
+        fetch('http://localhost:8000/login',{
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(data)
+        })
+    })
+</script>
 </html>

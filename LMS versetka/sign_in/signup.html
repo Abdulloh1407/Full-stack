@@ -38,18 +38,16 @@
                     <form>
                         <h3 style="text-align: start;">Full Name </h1>
                         <div class="input-group">
-                            <input type="text" class="first-name" placeholder="First Name">
-                            <input type="text" class="last-name" placeholder="Last Name">
+                            <input type="text" name="first_name" class="first-name" placeholder="First Name">
+                            <input type="text" name="last_name" class="last-name" placeholder="Last Name">
                         </div>
                         <h3 style="text-align: start;">User Name </h1>
-                        <input type="text" class="username" placeholder="Username">
+                        <input type="text" name="username" class="username" placeholder="Username">
                         <h3 style="text-align: start;">Email</h3>
-                        <input type="email" class="email" placeholder="Email ID">
+                        <input type="email" name="email" class="email" placeholder="Email ID">
                         <h3 style="text-align: start;">Password</h3>
-                        <div class="input-group">
-                            <input type="password" class="password" placeholder="Enter Password">
-                            <input type="password" class="confirm-password" placeholder="Confirm Password">
-                        </div>
+                        <input type="password" name="password" class="password" placeholder="Enter Password">
+                            
                         <button type="submit" class="create-account">Create Account</button>
                     </form>
                     <p>--------------------Sign up with-----------------------</p>
@@ -64,5 +62,21 @@
         
     </div>
 </body>
-
+ <script>
+    const form = document.querySelector('form')
+    form.addEventListener('submit', async (e) => {
+        e.preventDefault();
+        const data = Object.fromEntries(new FormData(e.target))
+        const response = await fetch('http://localhost:8000/register', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(data)
+        });
+        if(response.ok){
+            window.location.href="/LMS%20versetka/category/catagory.html"
+        }
+    })
+</script>
 </html>
