@@ -103,10 +103,16 @@ p:hover{
         border-radius: 5px;
         border: 1px solid #334155;
         cursor: pointer;
+        transition: all 0.3s ease-in-out;
+        a{
+            color: #333;
+        }
     }
     .btn:hover{
         background-color: #334155;
-        color: white;
+        a{
+            color: white;
+        }
     }
     .btn1{
         padding: 10px 15px;
@@ -115,10 +121,17 @@ p:hover{
         border-radius: 5px;
         border: 1px solid #334155;
         cursor: pointer;
+        transition: all 0.3s ease-in-out;
+        a{
+            color: #fff;
+        }
     }
     .btn1:hover{
         background-color: white;
-        color: black;
+        a{
+
+            color: black;
+        }
     }
 }
 
