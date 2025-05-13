@@ -24,7 +24,9 @@ const server=http.createServer(async (req,res)=>{
         let body = "";
         for await (let chunk of req) {body += chunk}
         body=JSON.parse(body)
-        const user=await db.collection("users").findOne({username:body.username})
+        console.log(body);
+        const user=await db.collection("users").findOne({email:body.email})
+        console.log(user);
         res.setHeader("Content-Type", "application/json");
         if(!user) return res.end(JSON.stringify({message:"User not found"}))
         if(await bcrypt.verify(user.password,body.password)){
