@@ -1,17 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="Online ta'lim platformasi. 1000+ kurslar bilan bilim va ko'nikmalaringizni oshiring!">
-    <meta name="keywords"
-        content="Byway, online o‘rganish, kurslar, biznes, dasturlash, dizayn, hisob yaratish, ta’lim platformasi">
+    <meta name="description" content="Online ta'lim platformasi. 1000+ kurslar bilan bilim va ko'nikmalaringizni oshiring!">
+    <meta name="keywords" content="Byway, online o‘rganish, kurslar, biznes, dasturlash, dizayn, hisob yaratish, ta’lim platformasi">
     <title>Document</title>
     <link rel="stylesheet" href="./signup.css">
 </head>
-
 <body>
     <div class="parent">
         <nav class="nav">
@@ -41,34 +37,32 @@
                     <h2>Create Your Account</h2>
                     <form>
                         <h3 style="text-align: start;">Full Name </h1>
-                            <div class="input-group">
-                                <input type="text" name="first_name" class="first-name" placeholder="First Name">
-                                <input type="text" name="last_name" class="last-name" placeholder="Last Name">
-                            </div>
-                            <h3 style="text-align: start;">User Name </h1>
-                                <input type="text" name="username" class="username" placeholder="Username">
-                                <h3 style="text-align: start;">Email</h3>
-                                <input type="email" name="email" class="email" placeholder="Email ID">
-                                <h3 style="text-align: start;">Password</h3>
-                                <input type="password" name="password" class="password" placeholder="Enter Password">
-
-                                <button type="submit" class="create-account">Create Account</button>
+                        <div class="input-group">
+                            <input type="text" name="first_name" class="first-name" placeholder="First Name">
+                            <input type="text" name="last_name" class="last-name" placeholder="Last Name">
+                        </div>
+                        <h3 style="text-align: start;">User Name </h1>
+                        <input type="text" name="username" class="username" placeholder="Username">
+                        <h3 style="text-align: start;">Email</h3>
+                        <input type="email" name="email" class="email" placeholder="Email ID">
+                        <h3 style="text-align: start;">Password</h3>
+                        <input type="password" name="password" class="password" placeholder="Enter Password">
+                            
+                        <button type="submit" class="create-account">Create Account</button>
                     </form>
                     <p>--------------------Sign up with-----------------------</p>
                     <div class="social-login">
-                        <button class="facebook"> <img src="../assites/icons/Facebook_Logo_Primary 2.png"
-                                alt="">Facebook</button>
+                        <button  class="facebook"> <img src="../assites/icons/Facebook_Logo_Primary 2.png" alt="">Facebook</button>
                         <button class="google"> <img src="../assites/icons/google.png" alt="">Google</button>
-                        <button class="microsoft"><img style="width: 25px;"
-                                src="../assites/icons/Microsoft_logo.svg.png" alt="">Microsoft</button>
+                        <button class="microsoft"><img style="width: 25px;" src="../assites/icons/Microsoft_logo.svg.png" alt="">Microsoft</button>
                     </div>
                 </div>
             </div>
         </section>
-
+        
     </div>
 </body>
-<script>
+ <script>
     const form = document.querySelector('form')
     form.addEventListener('submit', async (e) => {
         e.preventDefault();
@@ -80,12 +74,9 @@
             },
             body: JSON.stringify(data)
         });
-        if (response.ok && response.status == 201) {
-            window.location.href = "/LMS%20versetka/category/catagory.html"
-        } else if (response.status == 409) {
-            alert("Email already exist")
+        if(response.ok){
+            window.location.href="/LMS%20versetka/category/catagory.html"
         }
     })
 </script>
-
 </html>
